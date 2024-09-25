@@ -46,11 +46,11 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-            Some of the projects are from work and some are on my own time.
+            This are some of the project I have complete on my own, some with the help of AI.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
-
+{/*     _______________________________ Top Project___________________________________                   */}
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
           <Card>
             <Link href={`/projects/${featured.slug}`}>
@@ -101,6 +101,7 @@ export default async function ProjectsPage() {
             ))}
           </div>
         </div>
+        {/*     _______________________________ Top Project___END________________________________                   */}
         <div className="hidden w-full h-px md:block bg-zinc-800" />
 
         <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
