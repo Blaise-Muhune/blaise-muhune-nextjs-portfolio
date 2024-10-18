@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Blaise",
+    template: "%s | blaise.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Software engineer",
   openGraph: {
     title: "chronark.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Software engineer",
+    url: "https://blaise-muhune-nextjs-portfolio-29qgl6omo.vercel.app/",
+    siteName: "Blaise Muhune",
     images: [
       {
         url: "https://chronark.com/og.png",
@@ -54,7 +54,6 @@ const calSans = LocalFont({
   src: "../public/fonts/CalSans-SemiBold.ttf",
   variable: "--font-calsans",
 });
-
 export default function RootLayout({
   children,
 }: {
