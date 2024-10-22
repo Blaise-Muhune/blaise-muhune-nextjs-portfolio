@@ -27,7 +27,6 @@ export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 		>
 			<div className="pointer-events-none">
 				<div className="absolute inset-0 z-0  transition duration-1000 [mask-image:linear-gradient(black,transparent)]" />
-				// ... existing code ...
 				<motion.div
 					className="absolute inset-0 z-10 bg-gradient-to-br from-white via-white/50 to-white/10 opacity-100 transition duration-1000 group-hover:opacity-70"
 					style={style}
@@ -36,7 +35,6 @@ export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 					className="absolute inset-0 z-10 opacity-0 mix-blend-overlay transition duration-1000 group-hover:opacity-80"
 					style={style}
 				/>
-// ... existing code ...
 			</div>
 
 			{children}
